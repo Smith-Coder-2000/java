@@ -1,0 +1,148 @@
+
+import java.util.*;
+import java.text.DecimalFormat;;
+
+class login{
+
+}
+
+class patient{
+    String pid, disease, sex;
+    static String pname;
+    int age;
+    void new_patient()
+    {
+    }
+    void patient_info()
+    {
+    }
+    public static String getPatientDetails(){
+    }
+}
+
+class doctor{
+    String did, dname, specilist, appoint, doc_qual;
+    int droom;
+    String date;
+    String time;
+    public void getSchedule(){
+    } 
+    public void addSchedule(){
+    }
+    public void deleteSchedule(){
+    }
+    public void confirmAppointment(){
+    }
+    void new_doctor()
+    {
+    }
+    void doctor_info()
+    {
+    }
+}
+
+class staff
+{
+    String sid, sname, desg, sex;
+    int salary;
+    void new_staff()
+    {
+    }
+    void staff_info()
+    {
+    }
+}
+
+
+class inventory{
+    String in_name, in_comp, in_type, exp_date;
+    int in_cost, count;
+    void new_medi()
+    {
+    }
+    void find_in()
+    {
+    }
+}
+
+class TreatementDetails{
+    String Treatement;
+    int Treatement_cost;
+    void new_feci()
+    {
+    }
+
+    void feci_list()
+    {
+    }
+}
+
+
+
+class appointment{
+    
+}
+
+
+class Accounts{
+
+}
+
+class reports{
+
+}
+
+class billing{
+    int b_id;
+    String p_name;
+    int p_id;
+    String item_name;
+    int cost; 
+    static int staff_id_check;
+    static String staff_name_check;
+    int staff_id;
+    String staff_name;
+    static String hospitalName;
+    static double dollar, pound, euro, yen,ringgit;
+
+
+billing(int staff_id,String staff_name){
+    staff_id_check=staff_id;
+    staff_name_check=staff_name;
+}
+  
+
+billing(int b_id,String p_name,int p_id,int cost){
+    this.b_id=b_id;
+    this.p_name=p_name;
+    this.p_id=p_id;
+    this.cost=cost;
+}
+
+public static void calculator(){
+    
+}
+
+public static void calculator(double amount){
+
+}
+
+public void updateCost(){
+
+}
+
+public void print(){
+   
+}
+
+
+public void print(int staff_id,String staff_name){
+
+}
+
+
+
+class app{
+    public static void main(String args[]){
+    }
+}
